@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-##**Overview**
+## **Overview**
 
 The purpose of the project is to carry out a comparativeof different data modelling techniques of supervised machine learning using various algorithms for the data set provided by Lending-Club.
 
@@ -13,42 +13,42 @@ Following techniques were used for analysis:
 * Easy Ensemble AdaBoost Classifier (technique to reduce bias)
 
 
-##**Results**
+## **Results**
 
 The results of all models used for supervised machine learning techniques are as follows:
 
 * Naive Random Oversampling
-i. Accuracy: 0.65
-ii. Precision: 0.99
-ii. Recall: 0.56
+    * Accuracy: 0.65
+    * Precision: 0.99
+    * Recall: 0.56
 
 * SMOTE Oversampling
-i. Accuracy:0.65
-ii. Precision:0.99
-ii. Recall: 0.69
+    * Accuracy:0.65
+    * Precision:0.99
+    * Recall: 0.69
 
 * Cluster Centroids Undersampling
-i. Accuracy: 0.54
-ii. Precision: 0.99
-ii. Recall:0.54
+    * Accuracy: 0.54
+    * Precision: 0.99
+    * Recall:0.54
 
 * SMOTEENN(over + undersampling technique)
-i. Accuracy:0.64
-ii. Precision:0.99
-ii. Recall:0.57
+    * Accuracy:0.64
+    * Precision:0.99
+    * Recall:0.57
 
 * Balanced Random Forest Classifier
-i. Accuracy:0.78
-ii. Precision: 0.99
-ii. Recall: 0.89
+    * Accuracy:0.78
+    * Precision: 0.99
+    * Recall: 0.89
 
 * Easy Ensemble AdaBoost Classifier
-i. Accuracy: 0.93
-ii. Precision: 0.99
-ii. Recall: 0.94
+    * Accuracy: 0.93
+    * Precision: 0.99
+    * Recall: 0.94
 
 
-##**Summary**
+## **Summary**
 
 Although the precision for all 6 techniques is almost same at 0.99, it is preferable to use the Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier for the analysis due to their high accuracy at 0.78 and 0.93 respectively. They also have relatively higher recall values at 0.89 and 0.94 respectively.
 
